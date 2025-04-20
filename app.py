@@ -41,6 +41,7 @@ if texte_saisi:
     st.subheader("🔎 Résultat de l'analyse")
     st.markdown(f"**{label}** (confiance : `{proba*100:.2f}%`)")
 
-    # Pour tester la sortie texte brute (facultatif)
-    # st.text(f"Texte nettoyé : {texte_nettoye}")
+# Footer
+st.markdown("---")
+st.markdown("<p style='text-align:center;'>Réalisé par Aurélie PERNELLE | Avril 2025</p>", unsafe_allow_html=True)
 
